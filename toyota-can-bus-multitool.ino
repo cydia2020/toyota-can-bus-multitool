@@ -26,7 +26,7 @@ const int SPI_CS_PIN = 10;
 // Create MCP_CAN object
 MCP_CAN CAN(SPI_CS_PIN);
 
-// Define message IDs
+// Define IPAS message IDs
 const int MESSAGE_ID_292 = 0x292;
 const int MESSAGE_ID_32E = 0x32E;
 const int MESSAGE_ID_396 = 0x396;
@@ -35,7 +35,7 @@ const int MESSAGE_ID_43B = 0x43B;
 const int MESSAGE_ID_497 = 0x497;
 const int MESSAGE_ID_4CC = 0x4CC;
 
-// Define message rates
+// Define IPAS message rates
 const int MESSAGE_RATE_292 = 333;   // 3Hz = 333ms
 const int MESSAGE_RATE_32E = 50;    // 20Hz = 50ms
 const int MESSAGE_RATE_396 = 10;    // 100Hz = 10ms
@@ -44,7 +44,7 @@ const int MESSAGE_RATE_43B = 10;    // 100Hz = 10ms
 const int MESSAGE_RATE_497 = 10;    // 100Hz = 10ms
 const int MESSAGE_RATE_4CC = 10;    // 100Hz = 10ms
 
-// Define message data
+// Define IPAS message data
 byte MESSAGE_DATA_292[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x9E};
 byte MESSAGE_DATA_32E[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 byte MESSAGE_DATA_396[] = {0xBD, 0x00, 0x00, 0x00, 0x60, 0x0F, 0x02, 0x00};
