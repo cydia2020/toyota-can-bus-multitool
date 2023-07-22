@@ -1,0 +1,3 @@
+[submodule "libs/Arduino_CAN_BUS_MCP2515"]
+	path = libs/Arduino_CAN_BUS_MCP2515
+	url = https://github.com/Longan-Labs/Arduino_CAN_BUS_MCP2515
