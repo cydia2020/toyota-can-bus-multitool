@@ -34,8 +34,6 @@ const int MESSAGE_ID_43A = 0x43A;
 const int MESSAGE_ID_43B = 0x43B;
 const int MESSAGE_ID_497 = 0x497;
 const int MESSAGE_ID_4CC = 0x4CC;
-const int MESSAGE_ID_610 = 0x610;
-const int MESSAGE_ID_620 = 0x620;
 
 // Define message rates
 const int MESSAGE_RATE_292 = 333;   // 3Hz = 333ms
