@@ -4,7 +4,7 @@ This Arduino-based multitool is designed for newer Toyota vehicles manufactured 
 
 Also this readme was partially auto generated because I am lazy.
 
-This code is potentially dodgy depending on how you use it so please please please read this entire thing.
+This code is a frankenstein's monster of some of my previous works so expect inconsistencies, also this is potentially dodgy depending on how you use it so please please please read this entire thing.
 
 PRs welcome.
 
