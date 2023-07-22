@@ -24,7 +24,7 @@ PRs welcome.
 
 4. **Hybrid Gear Converter**
 
-   Useful in certain iDataLink Maestro setups. It assists when the Maestro module is unable to accurately determine a hybrid vehicle's gear. The converter ensures smooth gear communication between different vehicle components.
+   Useful in certain iDataLink Maestro setups. It assists when the Maestro module is unable to accurately determine a hybrid vehicle's gear.
 
 **Known Issues**
 
