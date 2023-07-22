@@ -221,7 +221,7 @@ void gearPacketConverter()
     CAN.readMsgBuf(&len, buf);
 
     // Check if the incoming message is for the original signal
-    if (buf[0] == ICE_GEAR_CAN_ID && len == 8) {
+    if (buf[0] == HYBRID_GEAR_CAN_ID&& len == 8) {
       // Extract the relevant data from the original signal
       uint8_t originalGear = buf[ORIG_GEAR_BIT / 8] & 0x0F;
 
@@ -233,7 +233,7 @@ void gearPacketConverter()
       convertedData[CONVERTED_GEAR_BIT / 8] = convertedGear;
 
       // Send the converted data back to the CAN network with the converted CAN ID
-      sendCANMessage(HYBRID_GEAR_CAN_ID, convertedData, sizeof(convertedData));
+      sendCANMessage(ICE_GEAR_CAN_ID, convertedData, sizeof(convertedData));
     }
   }
 }
